@@ -70,23 +70,23 @@ cd task-manager-project
 | POST   |    /classify    | Classify a task                   |
 
 ## Project Structure
-task-manager-project/
-├── client/
-│ └── task-manager-project/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── AddTask/
-│ │ │ ├── EditTask/
-│ │ │ └── EnterTask/
-│ │ ├── App.tsx
-│ │ ├── main.tsx
-│ └── vite.config.ts
-├── staff/
-│ ├── server.js
-│ ├── tasks.db
-│ ├── nlp/
-│ │ └── classifier.js
-│ ├── package.json
-│ └── .env
+task-manager-project/ <br>
+├── client/ <br>
+│ └── task-manager-project/ <br>
+│ ├── public/ <br>
+│ ├── src/ <br>
+│ │ ├── components/ <br>
+│ │ │ ├── AddTask/ <br>
+│ │ │ ├── EditTask/ <br>
+│ │ │ └── EnterTask/ <br>
+│ │ ├── App.tsx <br>
+│ │ ├── main.tsx <br>
+│ └── vite.config.ts <br>
+├── staff/ <br>
+│ ├── server.js <br>
+│ ├── tasks.db <br>
+│ ├── nlp/ <br>
+│ │ └── classifier.js <br>
+│ ├── package.json <br>
+│ └── .env <br>
 
