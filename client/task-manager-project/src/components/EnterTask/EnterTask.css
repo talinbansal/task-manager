@@ -1,0 +1,50 @@
+.card1 {
+    border-radius: 0px;
+}
+
+.task-submit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.enter-task {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.enter-task input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    width: 300px;
+}
+
+.enter-task select {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.enter-btn {
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.enter-btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+    /* border: 1px solid #83dcd4; */
+}
+
+

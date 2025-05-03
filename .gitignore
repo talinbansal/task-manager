@@ -1,0 +1,17 @@
+# Node modules
+**/node_modules/
+
+# Build artifacts
+**/.vite/
+
+# Environment files
+*.env
+
+# SQLite DB
+*.db
+
+# Mac system files
+.DS_Store
+
+# Misc
+_metadata.json

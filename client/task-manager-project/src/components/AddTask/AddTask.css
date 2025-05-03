@@ -1,0 +1,115 @@
+.cardWork {
+    /* border-left: 3px solid #3b82f6; */
+    border-left: 3px solid #1e3a8a;
+    transition: background-color 1s, color 0.3s;
+}
+
+.cardStudy {
+    /* border-left: 3px solid #6366f1; */
+    border-left: 3px solid #4f46e5;
+    transition: background-color 1s, color 0.3s;
+}
+
+.cardPersonal {
+    /* border-left: 3px solid #10b981; */
+    border-left: 3px solid #047857;
+    transition: background-color 1s, color 0.3s;
+}
+
+.cardOther {
+    /* border-left: 3px solid #10b981; */
+    border-left: 3px solid #2E2E2E;
+    transition: background-color 1s, color 0.3s;
+}
+
+.cardStudy:hover {
+    background-color: #eef2ff;
+}
+
+.cardWork:hover {
+    background-color: #e0f2fe;
+}
+
+.cardPersonal:hover {
+    background-color: #ecfdf5;
+}
+
+.cardOther:hover {
+    background-color: #E5E5E5
+    ;
+}
+
+.task-title {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.task-meta {
+    font-size: 12px;
+    color: #666;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.edit-btn {
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    background-color: #f3f4f6;
+    color: #1d3a63;
+    border: 1px solid #6c9ce4;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #6c9ce4;
+    color: #ffffff;
+}
+
+.delete-btn {
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    background-color: #fef2f2; /* Light red background */
+    color: #b91c1c; /* Deep red text */
+    border: 1px solid #fca5a5;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #ef4444; /* Strong red on hover */
+    color: #ffffff;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4); /* dim background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .popup-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .form-check-input {
+    border-radius: 50% !important;
+  }
+  
+
