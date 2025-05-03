@@ -22,25 +22,35 @@ Frontend and backend are synced for seamless task updates without manual refresh
 ## Installation & Setup
 
 ### Install Client Dependencies
+```
 cd client/task-manager-project
 npm install
+```
 
 ### Install Backend Dependencies
+```
 cd ../../../staff
 npm install
+```
 
 ### Set Up Environment Variables
 #### Create a .env file inside the staff/ directory and add:
+```
 PORT=5001
 HUGGING_FACE_KEY=your_hugging_face_api_key
+```
 
 ### Start the Backend Server
+```
 node server.js
+```
 
 ### Start the Frontend App
 #### In a new terminal
+```
 cd client/task-manager-project
 npm run dev
+```
 
 #### The frontend will run on http://localhost:5173, and the backend on http://localhost:5001.
 
@@ -51,11 +61,32 @@ cd task-manager-project
 ```
 
 ## API Endpoints (Backend-Express)
-| Method | Endpoint    | Description                       |
-| ------ | ----------- | --------------------------------- |
-| GET    | /tasks      | Fetch all tasks from the database |
-| POST   | /tasks      | Add a new task                    |
-| PUT    | /tasks/\:id | Update a task                     |
-| DELETE | /tasks/\:id | Delete a task                     |
+| Method |     Endpoint    |            Description            |
+| ------ | --------------- | --------------------------------- |
+| GET    | /populate_tasks | Fetch all tasks from the database |
+| POST   |     /tasks      | Add a new task                    |
+| POST   |  /update_tasks  | Update a task                     |
+| POST   |  /delete_tasks  | Delete a task                     |
+| POST   |    /classify    | Classify a task                   |
 
+## Project Structure
+task-manager-project/
+├── client/
+│ └── task-manager-project/
+│ ├── public/
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── AddTask/
+│ │ │ ├── EditTask/
+│ │ │ └── EnterTask/
+│ │ ├── App.tsx
+│ │ ├── main.tsx
+│ └── vite.config.ts
+├── staff/
+│ ├── server.js
+│ ├── tasks.db
+│ ├── nlp/
+│ │ └── classifier.js
+│ ├── package.json
+│ └── .env
 
