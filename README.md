@@ -91,3 +91,8 @@ task-manager-project/
 ├── package.json
 └── .env
 ```
+
+### Contact & Contributions
+💼 Author: Talin Bansal (LinkedIn) <br>
+📩 Email: tbansal@uwaterloo.ca <br>
+🤝 Contributions: Open to feature suggestions & pull requests! <br>
